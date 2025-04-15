@@ -16,7 +16,13 @@
 	},
 	"observability": {
 		"enabled": true
-	}
+	},
+	"r2_buckets": [
+		{
+			"binding": "NEXT_INC_CACHE_R2_BUCKET",
+			"bucket_name": "test-bucket"
+		}
+	]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
